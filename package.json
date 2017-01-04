@@ -1,0 +1,14 @@
+{
+  "name": "gulp-ng-config-provider",
+  "version": "0.0.1",
+  "description": "Creates a configuration module for AngularJS",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "lodash": "^4.17.4",
+    "through2": "^2.0.3"
+  }
+}

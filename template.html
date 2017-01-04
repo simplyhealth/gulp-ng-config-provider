@@ -1,0 +1,12 @@
+angular.module('ngConfig', []).provider('config', function ConfigProvider(){
+
+  this.constructor = function() {
+
+  }
+
+  this.getConfig = <%= configuration %>
+
+  this.$get = [function() {
+    return new ConfigProvider();
+  }];
+});
