@@ -1,10 +1,25 @@
 {
   "name": "gulp-ng-config-provider",
   "version": "0.0.1",
-  "description": "Creates a configuration module for AngularJS",
+  "description": "Generates a AngularJS 1 configuration provider based on process variables",
   "main": "index.js",
-  "author": "",
-  "license": "MIT",
+  "author": "James Pegg <james.pegg@simplyhealth.co.uk>",
+  "license": "Apache 2.0",
+  "keywords" : [
+    "gulpplugin",
+    "angular",
+    "configuration",
+    "environment",
+    "variables"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplyhealth/gulp-ng-config-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simplyhealth/gulp-ng-config-provider/issues"
+  },
+  "homepage": "https://github.com/simplyhealth/gulp-ng-config-provider#readme",
   "dependencies": {
     "dotenv": "^2.0.0",
     "gulp-util": "^3.0.7",
